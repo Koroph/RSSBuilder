@@ -1,0 +1,45 @@
+{
+  "name": "yjk/phprss",
+  "description": "library generate rss file data",
+  "type": "library",
+  "keywords": [
+    "Flux rss",
+    "Generate rss",
+    "RSS builder"
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=8.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "koroph",
+      "homepage": "http://koroph.site",
+      "email": "yjk@outlook.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpRss\\Rss\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpRss\\Rss\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "1.0",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
